@@ -73,6 +73,8 @@ class GameScreen extends StatelessWidget {
                     return const SizedBox.shrink();
                   },
                 ),
+
+                Align(alignment: Alignment.bottomRight, child: Padding(padding: const EdgeInsets.all(10.0), child: Text('Gagan Cheema', style: TextStyle(color: Colors.white, fontSize: fontSize * 1, fontWeight: FontWeight.bold, fontFamily: 'GreatVibes')))),
               ],
             );
           },
